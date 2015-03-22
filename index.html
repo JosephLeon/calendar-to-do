@@ -13,6 +13,9 @@
   <script src='jquery/dist/jquery.min.js'></script>
   <script src='moment/min/moment.min.js'></script>
   <script src='fullcalendar/dist/fullcalendar.js'></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <!-- <script src="js/interact-1.2.4.min.js"></script> -->
 
 </head>
 
@@ -21,6 +24,15 @@
 
   <h1>Calendar doeth a thing</h1>
 
-  <div id='calendar'></div>
+  <div class="group" id="main">
+    <div id="side-bar">
+      <h3>Things<h3>
+      <ul>
+        <li class="draggable drag-drop activated">Tuesday - Thursday</li>
+        <li class="draggable drag-drop activated">Wednesday</li>
+      </ul>
+    </div>
+    <div class="drop-zone" id='calendar'></div>
+  </div>
 </body>
 </html>
