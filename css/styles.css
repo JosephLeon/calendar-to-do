@@ -1,0 +1,23 @@
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#main {
+
+}
+
+#side-bar {
+  float: left;
+  width: 30%;
+}
+
+#calendar {
+  float: right;
+  width: 70%;
+}
+
+li {
+  padding: 7px;
+}
