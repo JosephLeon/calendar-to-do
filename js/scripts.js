@@ -11,7 +11,12 @@ $(document).ready(function() {
         title: 'My Event',
         start: '2015-03-03',
         description: 'I haz an event'
-      }
+      },
+      {
+        title: 'New Event',
+        start: '2015-03-05',
+        description: 'Muay Thai Fight'
+      },
     ],
     //eventRender: function(event, element) {
       //element.qtip({
